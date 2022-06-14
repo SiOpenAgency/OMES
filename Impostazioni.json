@@ -1,0 +1,44 @@
+[
+	{
+		"NomeAzienda": "Pegaso",
+		"Parametri": [
+			"Quantità",
+			"Codice"
+		],
+		"Distanza": 1,
+		"Limite": 1
+	},
+
+	{
+		"NomeAzienda": "Altaflex",
+		"Parametri": [
+			"Q.ta'",
+			"Data Consegna"
+		],
+		"Distanza": 1,
+		"Limite": 1
+	},
+
+	{
+		"NomeAzienda": "Parmalat",
+		"Parametri": [
+			"Quantità",
+			"Codice",
+			"Data"
+		],
+		"Distanza": 3,
+		"Limite": 1
+	},
+
+	{
+		"NomeAzienda": "Prova_Qui",
+		"Parametri": [
+			"Quantità",
+			"Codice",
+			"Città",
+			"CAP"
+		],
+		"Distanza": 1,
+		"Limite": 1
+	}
+]
