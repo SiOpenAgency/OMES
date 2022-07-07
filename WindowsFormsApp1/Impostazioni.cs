@@ -28,7 +28,7 @@ namespace WindowsFormsApp1
      
     public class DataManager
     {
-        public static List<Impostazioni> LoadSettings(String path = "C:\\Users\\Fabio\\source\\repos\\WindowsFormsApp1\\Impostazioni.json") //qui metto il path "default", se poi lo voglio cambiare passo un'altra stringa
+        public static List<Impostazioni> LoadSettings(String path = "C:\\Siopen\\Impostazioni.json") //qui metto il path "default", se poi lo voglio cambiare passo un'altra stringa
         {
             try
             {

@@ -95,6 +95,7 @@ namespace WindowsFormsApp1
 
         private void ApriEsploraRisorse(object sender, EventArgs e)
         {
+            MainClass m = new MainClass();
             var pathFileSelezionato = string.Empty;
             var contenutoFileSelezionato = string.Empty;
 
@@ -126,6 +127,8 @@ namespace WindowsFormsApp1
             var s = pathFileSelezionato;
             if (File.Exists("temp.xls")) //se il file esiste lo elimina -> così da evitare conflitti e da avere sempre il file nuovo
                 File.Delete("temp.xls");
+
+
             m.PDFToExcel(s, "temp.xls");
 
 

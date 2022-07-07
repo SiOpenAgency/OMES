@@ -180,21 +180,6 @@ namespace WindowsFormsApp1.Operazioni
 
 
 
-
-
- 
-
-        
-    
-            
-
-        
-
-
-               
-
-
-        
         
 
 

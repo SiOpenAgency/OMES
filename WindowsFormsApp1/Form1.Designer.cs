@@ -46,9 +46,10 @@
             this.panel1.AllowDrop = true;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(0, 12);
+            this.panel1.Location = new System.Drawing.Point(0, 10);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(973, 422);
+            this.panel1.Size = new System.Drawing.Size(730, 343);
             this.panel1.TabIndex = 0;
             this.panel1.Click += new System.EventHandler(this.ApriEsploraRisorse);
             this.panel1.DragDrop += new System.Windows.Forms.DragEventHandler(this.drop);
@@ -58,26 +59,29 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Location = new System.Drawing.Point(402, 188);
+            this.label1.Location = new System.Drawing.Point(302, 153);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(135, 16);
+            this.label1.Size = new System.Drawing.Size(109, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Trascina qui il file .pdf";
             // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(979, 12);
+            this.comboBox1.Location = new System.Drawing.Point(734, 10);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(195, 24);
+            this.comboBox1.Size = new System.Drawing.Size(147, 21);
             this.comboBox1.TabIndex = 1;
             // 
             // btnInvio
             // 
             this.btnInvio.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnInvio.Location = new System.Drawing.Point(979, 352);
+            this.btnInvio.Location = new System.Drawing.Point(734, 286);
+            this.btnInvio.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnInvio.Name = "btnInvio";
-            this.btnInvio.Size = new System.Drawing.Size(327, 82);
+            this.btnInvio.Size = new System.Drawing.Size(245, 67);
             this.btnInvio.TabIndex = 3;
             this.btnInvio.Text = "Converti";
             this.btnInvio.UseVisualStyleBackColor = true;
@@ -85,9 +89,10 @@
             // 
             // Esci
             // 
-            this.Esci.Location = new System.Drawing.Point(1197, 12);
+            this.Esci.Location = new System.Drawing.Point(898, 10);
+            this.Esci.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Esci.Name = "Esci";
-            this.Esci.Size = new System.Drawing.Size(109, 54);
+            this.Esci.Size = new System.Drawing.Size(82, 44);
             this.Esci.TabIndex = 6;
             this.Esci.Text = "Chiudi Programma";
             this.Esci.UseVisualStyleBackColor = true;
@@ -103,13 +108,14 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1318, 450);
+            this.ClientSize = new System.Drawing.Size(988, 366);
             this.Controls.Add(this.Esci);
             this.Controls.Add(this.btnInvio);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Pdf to Grid";
             this.Load += new System.EventHandler(this.Form1_Load);
